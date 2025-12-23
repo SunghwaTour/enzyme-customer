@@ -238,10 +238,10 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm text-muted-foreground">© 2025 효소방. All rights reserved.</div>
             <div className="flex gap-6 text-sm text-muted-foreground">
-              <Link href="#" className="hover:text-primary transition-colors">
+              <Link href="/terms" className="hover:text-primary transition-colors">
                 이용약관
               </Link>
-              <Link href="#" className="hover:text-primary transition-colors">
+              <Link href="/terms/privacy" className="hover:text-primary transition-colors">
                 개인정보처리방침
               </Link>
               <Link href="#" className="hover:text-primary transition-colors">
